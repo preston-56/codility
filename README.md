@@ -21,3 +21,24 @@ Example:
 "Code Wars -----> [['C', 1], ['o', 1], ['d', 1], ['e', 1], [' ', 1], ['W', 1], ['a', 1], ['r', 1], ['s', 1]]
 "233312", ------> [['2', 2], ['3', 3], ['1', 1 ]]
 ```
+
+# Challenge Three
+
+Write simple .camelCase method for strings. All words must have their first letter capitalized without spaces.
+For instance:
+```txt
+'hello case'.camelcase => HelloCase
+'camel case word'.camelcase => CamelCaseWord
+```
+
+# Challenge Four
+
+Write a function which merges two strings together. It does so by merging the end of the first string with the start of the second string together when they are an exact match.
+```txt
+"abcde" + "cdefgh" => "abcdefgh"
+"abaab" + "aabab" => "abaabab"
+"abc" + "def" => "abcdef"
+"abc" + "abc" => "abc"
+```
+NOTE: The algorithm should always use the longest possible overlap.
+"abaabaab" + "aabaabab" would be "abaabaabab" and not "abaabaabaabab"
